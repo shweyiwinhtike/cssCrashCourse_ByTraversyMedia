@@ -1,0 +1,193 @@
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+
+    /*font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;*/
+
+    font: normal 20px Arial, Helvetica, sans-serif;
+
+    line-height: 1.7em;
+    margin: 0;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+.clr {
+    clear: both;
+}
+
+.box-1 {
+    background-color: #333;
+
+    color: white;
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 8px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+.box-1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+
+}
+
+.box-2 {
+    border: 3px dotted greenyellow;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+.categories h2 {
+    text-align: center;
+
+}
+
+.categories ul {
+    list-style: square;
+    padding: 20;
+}
+
+.categories li {
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+    /*list-style-image: url('../images/heart.png');*/
+}
+
+.myform {
+    padding: 20px;
+
+}
+
+.myfrom .form_group {
+    padding-bottom: 15px;
+}
+
+.myform label {
+    display: block;
+}
+
+.myform input[type="text"],
+.myform textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+
+}
+
+.myform input[type="submit"]:hover {
+    background-color: #ff1a1a;
+}
+
+.block {
+    float: right;
+    width: 33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main_block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('../images/bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 900px;
+
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+.fixmebutton{
+    position: fixed;
+    top: 400px;
+}
+
+.mylist li:first-child{
+    background-color: red;
+}
+
+.mylist li:last-child{
+    background-color: green;
+}
+
+.mylist li:nth-child(5){
+    background: blue;
+}
+
+.mylist li:nth-child(even){
+    background: yellow;
+}
